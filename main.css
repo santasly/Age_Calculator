@@ -1,0 +1,68 @@
+;:root{
+    -- Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Off white: hsl(0, 0%, 94%);
+    -- Light grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off black: hsl(0, 0%, 8%);
+}
+ 
+.body{
+    background-color: hsl(0, 0%, 94%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(237, 230, 230);
+    padding: 30px;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 120px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30%;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-right: 40px;
+    width: 30vw;
+    height: 70px;
+    grid-gap: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(167, 152, 152);
+    
+
+}
+#btn{
+    border: none;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    margin-left: 300px;
+    top: 60px;
+
+}
+#day_input , #month_input, #year_input{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.display{
+    height: 20vh;
+
+}
+.card{
+    width: 80px;
+    height;
+}
