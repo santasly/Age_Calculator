@@ -49,4 +49,6 @@ year.addEventListener("input", function(){
     }
      
 })
-submit_btn.addEventListener("click" )
+submit_btn.addEventListener("click" function(){
+    
+})

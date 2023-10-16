@@ -32,13 +32,13 @@
 .inputs{
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-between;
     padding-right: 40px;
     width: 30vw;
     height: 70px;
     grid-gap: 40px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid rgb(167, 152, 152);
+    padding-bottom: 30px;
+   
     
 
 }
@@ -50,11 +50,18 @@
     width: 60px;
     right: 30px;
     margin-left: 300px;
-    top: 60px;
+    top: 40px;
+   
+
+}
+.btn-btn{
+    border-bottom: 2px solid rgb(173, 171, 171);
+    width: 30vw;
+
 
 }
 #day_input , #month_input, #year_input{
-    width: 80px;
+    width: 60px;
     height: 30px;
     border-radius: 5px;
 }
