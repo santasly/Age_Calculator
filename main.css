@@ -23,7 +23,7 @@
     background-color: rgb(237, 230, 230);
     padding: 30px;
     width: 40vw;
-    height: 60vh;
+    height: 70vh;
     margin-top: 120px;
     margin-left: 300px;
     border-radius: 10px;
@@ -32,7 +32,7 @@
 .inputs{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 40px;
     width: 30vw;
     height: 70px;
@@ -66,10 +66,45 @@
     border-radius: 5px;
 }
 .display{
-    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40vh;
+    font-size: 40px;
+    margin-top: 30px;
+
 
 }
 .card{
     width: 80px;
-    height;
+    
+}
+#day-output, #month-output, #year-output{
+    color:hsl(259, 100%, 65%) ;
+}
+
+
+@media screen and (max-width:375px) {
+    bodY{
+        padding: 0;
+        margin: 0;
+    }
+    .main{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    .inputs{
+        flex-wrap:nowrap;
+        width: 100vw;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    #btn {
+        margin-left: 122px;
+    }
 }
